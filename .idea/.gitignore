@@ -1,0 +1,50 @@
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+### VS Code ###
+.vscode/
+
+### Spring Boot ###
+HELP.md
+
+### Logs ###
+*.log
+logs/
+
+### OS files ###
+.DS_Store
+Thumbs.db
+
+### Environment / secrets ###
+.env
+application-local.properties
+application-secrets.properties
+
+### Compiled class files ###
+*.class
+
+### Package files ###
+*.jar
+*.war
+*.ear
+!fitdesk-*.jar.original

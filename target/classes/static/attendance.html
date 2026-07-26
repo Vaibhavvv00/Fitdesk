@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitDesk - Attendance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="toast-container"></div>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="brand">
+                    <i class="fa-solid fa-dumbbell"></i> FitDesk
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="dashboard.html"><i class="fa-solid fa-chart-pie"></i> Dashboard</a></li>
+                <li><a href="members.html"><i class="fa-solid fa-users"></i> Members</a></li>
+                <li><a href="attendance.html" class="active"><i class="fa-solid fa-clipboard-check"></i> Attendance</a></li>
+                <li><a href="trainers.html"><i class="fa-solid fa-user-ninja"></i> Trainers</a></li>
+                <li><a href="plans.html"><i class="fa-solid fa-tags"></i> Plans</a></li>
+                <li><a href="payments.html"><i class="fa-solid fa-credit-card"></i> Payments</a></li>
+            </ul>
+            <div class="sidebar-footer">
+                <button class="btn btn-outline" style="width: 100%;" onclick="window.logout()">
+                    <i class="fa-solid fa-sign-out-alt"></i> Logout
+                </button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <div class="header-actions">
+                <h2>Attendance</h2>
+            </div>
+
+            <div class="card" style="margin-bottom: 24px;">
+                <h3 style="margin-bottom: 16px;">Check In / Check Out</h3>
+                <div class="attendance-actions">
+                    <div class="form-group" style="flex: 1; margin-bottom: 0;">
+                        <label class="form-label">Select Member</label>
+                        <select id="attendanceMemberSelect" class="form-select">
+                            <option value="">Choose active member...</option>
+                        </select>
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="checkInMember()">
+                        <i class="fa-solid fa-right-to-bracket"></i> Check In
+                    </button>
+                    <button type="button" class="btn btn-outline" onclick="checkOutMember()">
+                        <i class="fa-solid fa-right-from-bracket"></i> Check Out
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="header-actions" style="margin-bottom: 16px;">
+                    <h3>Today's Attendance</h3>
+                    <button type="button" class="btn btn-outline btn-sm" onclick="loadTodayAttendance()">
+                        <i class="fa-solid fa-rotate"></i> Refresh
+                    </button>
+                </div>
+                <div class="table-container">
+                    <table id="attendanceTable">
+                        <thead>
+                            <tr>
+                                <th>Member</th>
+                                <th>Check In</th>
+                                <th>Check Out</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/auth.js"></script>
+    <script src="js/attendance.js"></script>
+</body>
+</html>

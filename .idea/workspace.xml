@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25d0d396-ad08-4ac9-a0f2-8883d07efcc8" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000007127996933" />
+      <entry key="MS500" value="1.0613443321774558" />
+      <entry key="S2" value="2.0358706180858057" />
+      <entry key="S5" value="3.5345983494077275" />
+      <entry key="S10" value="4.532898996658468" />
+      <entry key="S30" value="5.44624064305616" />
+      <entry key="S60" value="5.714078732230605" />
+      <entry key="M2" value="5.854700578209196" />
+      <entry key="M5" value="5.9413085667754215" />
+      <entry key="M10" value="5.970558129259908" />
+      <entry key="M15" value="5.980350653150567" />
+      <entry key="M30" value="5.990164593656108" />
+      <entry key="H1" value="5.995079610517269" />
+      <entry key="H2" value="5.997539133295417" />
+      <entry key="H4" value="5.9987693986086885" />
+      <entry key="D1" value="5.99979487642527" />
+      <entry key="W1" value="5.999970696060466" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9265880618933879" />
+      <entry key="MS500" value="0.9908023448465576" />
+      <entry key="S2" value="1.7408668755680348" />
+      <entry key="S5" value="3.2933310151033663" />
+      <entry key="S10" value="4.377652431228145" />
+      <entry key="S30" value="5.384760950868698" />
+      <entry key="S60" value="5.681968783340359" />
+      <entry key="M2" value="5.838290391372859" />
+      <entry key="M5" value="5.934657564661906" />
+      <entry key="M10" value="5.96721799835835" />
+      <entry key="M15" value="5.978120637543636" />
+      <entry key="M30" value="5.989047952359515" />
+      <entry key="H1" value="5.994520880996792" />
+      <entry key="H2" value="5.997259666254706" />
+      <entry key="H4" value="5.998629639510408" />
+      <entry key="D1" value="5.99977157968907" />
+      <entry key="W1" value="5.999967367868271" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3H24AXfLMR0CLMxP0X0YD0Ccqs6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.FitDeskApplicationTests.contextLoads.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.FitDeskApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/VAIBHAV/Documents/GYM Management/fitdesk",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.12062726"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.FitDeskApplication">
+    <configuration name="FitDeskApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fitdesk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fitdesk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fitdesk" />
+      <option name="MAIN_CLASS_NAME" value="com.fitdesk.FitDeskApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FitDeskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="fitdesk" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fitdesk.FitDeskApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fitdesk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.FitDeskApplication" />
+        <item itemvalue="JUnit.FitDeskApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25d0d396-ad08-4ac9-a0f2-8883d07efcc8" name="Changes" comment="" />
+      <created>1785052689140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785052689140</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitDesk - Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="toast-container"></div>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="brand">
+                    <i class="fa-solid fa-dumbbell"></i> FitDesk
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="dashboard.html" class="active"><i class="fa-solid fa-chart-pie"></i> Dashboard</a></li>
+                <li><a href="members.html"><i class="fa-solid fa-users"></i> Members</a></li>
+                <li><a href="attendance.html"><i class="fa-solid fa-clipboard-check"></i> Attendance</a></li>
+                <li><a href="trainers.html"><i class="fa-solid fa-user-ninja"></i> Trainers</a></li>
+                <li><a href="plans.html"><i class="fa-solid fa-tags"></i> Plans</a></li>
+                <li><a href="payments.html"><i class="fa-solid fa-credit-card"></i> Payments</a></li>
+            </ul>
+            <div class="sidebar-footer">
+                <button class="btn btn-outline" style="width: 100%;" onclick="window.logout()">
+                    <i class="fa-solid fa-sign-out-alt"></i> Logout
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="header-actions">
+                <h2>Dashboard Overview</h2>
+                <div class="date-display" id="currentDate"></div>
+            </div>
+
+            <!-- Stats Grid -->
+            <div class="stat-grid">
+                <div class="card stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-users"></i></div>
+                    <div class="stat-content">
+                        <h3>Active Members</h3>
+                        <p id="statActiveMembers">0</p>
+                    </div>
+                </div>
+                <div class="card stat-card success">
+                    <div class="stat-icon"><i class="fa-solid fa-user-ninja"></i></div>
+                    <div class="stat-content">
+                        <h3>Total Trainers</h3>
+                        <p id="statTotalTrainers">0</p>
+                    </div>
+                </div>
+                <div class="card stat-card warning">
+                    <div class="stat-icon"><i class="fa-solid fa-indian-rupee-sign"></i></div>
+                    <div class="stat-content">
+                        <h3>Monthly Revenue</h3>
+                        <p id="statMonthlyRevenue">₹0</p>
+                    </div>
+                </div>
+                <div class="card stat-card info">
+                    <div class="stat-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                    <div class="stat-content">
+                        <h3>Today's Attendance</h3>
+                        <p id="statTodayAttendance">0</p>
+                    </div>
+                </div>
+                <div class="card stat-card warning">
+                    <div class="stat-icon"><i class="fa-solid fa-hourglass-half"></i></div>
+                    <div class="stat-content">
+                        <h3>Expiring in 7 Days</h3>
+                        <p id="statExpiringSoon">0</p>
+                    </div>
+                </div>
+                <div class="card stat-card danger">
+                    <div class="stat-icon"><i class="fa-solid fa-user-clock"></i></div>
+                    <div class="stat-content">
+                        <h3>Expired Memberships</h3>
+                        <p id="statExpiredMemberships">0</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts -->
+            <div class="chart-grid">
+                <div class="card">
+                    <h3 style="margin-bottom: 20px;">Revenue Trend (6 Months)</h3>
+                    <canvas id="revenueChart"></canvas>
+                </div>
+                <div class="card">
+                    <h3 style="margin-bottom: 20px;">Plan Distribution</h3>
+                    <canvas id="planChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Recent Payments -->
+            <div class="card">
+                <h3 style="margin-bottom: 20px;">Recent Payments</h3>
+                <div class="table-container">
+                    <table id="dashboardPaymentsTable">
+                        <thead>
+                            <tr>
+                                <th>Member</th>
+                                <th>Amount</th>
+                                <th>Date</th>
+                                <th>Method</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
