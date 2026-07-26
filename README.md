@@ -102,7 +102,7 @@ fitdesk/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/fitdesk.git
+https://github.com/Vaibhavvv00/Fitdesk
 cd fitdesk
 ```
 
