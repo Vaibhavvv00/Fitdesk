@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', options);
 
     await fetchStats();
+    await fetchTodayAttendance();
     await fetchRevenueTrend();
     await fetchPlanDistribution();
     await fetchRecentPayments();
@@ -27,6 +28,55 @@ async function fetchStats() {
     }
 }
 
+async function fetchTodayAttendance() {
+    try {
+        const response = await authFetch('/api/attendance/today');
+        if (response.ok) {
+            const records = await response.json();
+            const tbody = document.querySelector('#dashboardAttendanceTable tbody');
+            if (!tbody) return;
+            tbody.innerHTML = '';
+            
+            if (!records.length) {
+                tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;color:var(--text-muted);">No check-ins recorded today yet.</td></tr>';
+                return;
+            }
+
+            records.forEach(a => {
+                const name = a.member ? a.member.fullName : 'Unknown';
+                const checkIn = formatDateTime(a.checkIn);
+                const checkOut = a.checkOut ? formatDateTime(a.checkOut) : '—';
+                const inGym = !a.checkOut;
+                const statusClass = inGym ? 'active' : 'inactive';
+                const statusLabel = inGym ? 'In Gym' : 'Checked Out';
+
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td><strong>${name}</strong></td>
+                    <td>${checkIn}</td>
+                    <td>${checkOut}</td>
+                    <td><span class="badge ${statusClass}">${statusLabel}</span></td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+    } catch (err) {
+        console.error('Failed to load today attendance', err);
+    }
+}
+
+function formatDateTime(iso) {
+    if (!iso) return '—';
+    const d = new Date(iso);
+    return d.toLocaleString('en-IN', {
+        hour: '2-digit',
+        minute: '2-digit',
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric'
+    });
+}
+
 async function fetchRevenueTrend() {
     try {
         const response = await authFetch('/api/dashboard/revenue-trend');
@@ -39,8 +89,8 @@ async function fetchRevenueTrend() {
             
             // Create gradient
             let gradient = ctx.createLinearGradient(0, 0, 0, 400);
-            gradient.addColorStop(0, 'rgba(99, 102, 241, 0.5)');
-            gradient.addColorStop(1, 'rgba(99, 102, 241, 0.0)');
+            gradient.addColorStop(0, 'rgba(185, 255, 102, 0.4)');
+            gradient.addColorStop(1, 'rgba(185, 255, 102, 0.0)');
 
             new Chart(ctx, {
                 type: 'line',
@@ -49,15 +99,15 @@ async function fetchRevenueTrend() {
                     datasets: [{
                         label: 'Revenue',
                         data: revenues,
-                        borderColor: '#6366f1',
+                        borderColor: '#b9ff66',
                         backgroundColor: gradient,
                         borderWidth: 2,
                         fill: true,
                         tension: 0.4,
-                        pointBackgroundColor: '#6366f1',
-                        pointBorderColor: '#fff',
+                        pointBackgroundColor: '#b9ff66',
+                        pointBorderColor: '#080a0f',
                         pointHoverBackgroundColor: '#fff',
-                        pointHoverBorderColor: '#6366f1'
+                        pointHoverBorderColor: '#b9ff66'
                     }]
                 },
                 options: {
@@ -70,13 +120,13 @@ async function fetchRevenueTrend() {
                             beginAtZero: true,
                             grid: { color: 'rgba(255,255,255,0.05)' },
                             ticks: {
-                                color: '#94a3b8',
+                                color: '#8892a4',
                                 callback: function(value) { return '₹' + value; }
                             }
                         },
                         x: {
                             grid: { display: false },
-                            ticks: { color: '#94a3b8' }
+                            ticks: { color: '#8892a4' }
                         }
                     }
                 }
@@ -102,7 +152,7 @@ async function fetchPlanDistribution() {
                     labels: labels,
                     datasets: [{
                         data: counts,
-                        backgroundColor: ['#6366f1', '#10b981', '#f59e0b', '#ef4444', '#3b82f6'],
+                        backgroundColor: ['#b9ff66', '#34d399', '#fbbf24', '#f87171', '#60a5fa'],
                         borderWidth: 0,
                         hoverOffset: 4
                     }]
@@ -113,7 +163,7 @@ async function fetchPlanDistribution() {
                     plugins: {
                         legend: {
                             position: 'bottom',
-                            labels: { color: '#94a3b8', padding: 20 }
+                            labels: { color: '#8892a4', padding: 20 }
                         }
                     }
                 }
@@ -140,7 +190,7 @@ async function fetchRecentPayments() {
                     <td>₹${p.amount.toLocaleString()}</td>
                     <td>${p.paymentDate}</td>
                     <td><span class="badge ${p.paymentMethod.toLowerCase()}">${p.paymentMethod}</span></td>
-                    <td><span class="badge ${p.status === 'Completed' ? 'success' : (p.status === 'Failed' ? 'danger' : 'warning')}">${p.status}</span></td>
+                    <td><span class="badge ${p.status === 'Completed' || p.status === 'COMPLETED' ? 'success' : (p.status === 'Failed' || p.status === 'FAILED' ? 'danger' : 'warning')}">${p.status}</span></td>
                 `;
                 tbody.appendChild(tr);
             });

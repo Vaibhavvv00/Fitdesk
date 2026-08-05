@@ -4,101 +4,122 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d0d396-ad08-4ac9-a0f2-8883d07efcc8" name="Changes" comment="" />
+    <list default="true" id="25d0d396-ad08-4ac9-a0f2-8883d07efcc8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fitdesk/repository/AttendanceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fitdesk/repository/AttendanceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fitdesk/service/AttendanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fitdesk/service/AttendanceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fitdesk/service/DashboardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fitdesk/service/DashboardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fitdesk-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/fitdesk-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fitdesk-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/fitdesk-1.0.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.fitdesk.FitDeskApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.fitdesk.FitDeskApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.fitdesk.FitDeskApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.fitdesk.FitDeskApplicationTests.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000007127996933" />
-      <entry key="MS500" value="1.0613443321774558" />
-      <entry key="S2" value="2.0358706180858057" />
-      <entry key="S5" value="3.5345983494077275" />
-      <entry key="S10" value="4.532898996658468" />
-      <entry key="S30" value="5.44624064305616" />
-      <entry key="S60" value="5.714078732230605" />
-      <entry key="M2" value="5.854700578209196" />
-      <entry key="M5" value="5.9413085667754215" />
-      <entry key="M10" value="5.970558129259908" />
-      <entry key="M15" value="5.980350653150567" />
-      <entry key="M30" value="5.990164593656108" />
-      <entry key="H1" value="5.995079610517269" />
-      <entry key="H2" value="5.997539133295417" />
-      <entry key="H4" value="5.9987693986086885" />
-      <entry key="D1" value="5.99979487642527" />
-      <entry key="W1" value="5.999970696060466" />
+      <entry key="MS100" value="1.0000000511745146" />
+      <entry key="MS500" value="1.0393624724244441" />
+      <entry key="S2" value="2.311318395957413" />
+      <entry key="S5" value="5.6055614084380405" />
+      <entry key="S10" value="9.619049637607624" />
+      <entry key="S30" value="16.015694371744367" />
+      <entry key="S60" value="18.663138736218063" />
+      <entry key="M2" value="20.233239280688643" />
+      <entry key="M5" value="21.267925588892627" />
+      <entry key="M10" value="21.629576808415408" />
+      <entry key="M15" value="21.752064485915117" />
+      <entry key="M30" value="21.875535831507865" />
+      <entry key="H1" value="21.937643237153925" />
+      <entry key="H2" value="21.968790376646307" />
+      <entry key="H4" value="21.984387368785736" />
+      <entry key="D1" value="21.997396807981314" />
+      <entry key="W1" value="21.999628088799962" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS100" value="3.55214965479339E-46" />
+      <entry key="MS500" value="8.130144245305684E-10" />
+      <entry key="S2" value="0.005339794734147694" />
+      <entry key="S5" value="0.12331327302141744" />
+      <entry key="S10" value="0.3511598966587975" />
+      <entry key="S30" value="0.7055075041749431" />
+      <entry key="S60" value="0.8399449411568255" />
+      <entry key="M2" value="0.9164851014374568" />
+      <entry key="M5" value="0.9657176385772196" />
+      <entry key="M10" value="0.9827093357535687" />
+      <entry key="M15" value="0.9884394140581992" />
+      <entry key="M30" value="0.994202903867314" />
+      <entry key="H1" value="0.9970972389227211" />
+      <entry key="H2" value="0.9985475646771774" />
+      <entry key="H4" value="0.999273518450868" />
+      <entry key="D1" value="0.999878883074459" />
+      <entry key="W1" value="0.9999826966838774" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9265880618933879" />
-      <entry key="MS500" value="0.9908023448465576" />
-      <entry key="S2" value="1.7408668755680348" />
-      <entry key="S5" value="3.2933310151033663" />
-      <entry key="S10" value="4.377652431228145" />
-      <entry key="S30" value="5.384760950868698" />
-      <entry key="S60" value="5.681968783340359" />
-      <entry key="M2" value="5.838290391372859" />
-      <entry key="M5" value="5.934657564661906" />
-      <entry key="M10" value="5.96721799835835" />
-      <entry key="M15" value="5.978120637543636" />
-      <entry key="M30" value="5.989047952359515" />
-      <entry key="H1" value="5.994520880996792" />
-      <entry key="H2" value="5.997259666254706" />
-      <entry key="H4" value="5.998629639510408" />
-      <entry key="D1" value="5.99977157968907" />
-      <entry key="W1" value="5.999967367868271" />
+      <entry key="MS100" value="1.5796892130310136E-5" />
+      <entry key="MS500" value="0.11761494310448599" />
+      <entry key="S2" value="1.579047280342102" />
+      <entry key="S5" value="5.072380345579841" />
+      <entry key="S10" value="9.42322322713321" />
+      <entry key="S30" value="16.426937948825344" />
+      <entry key="S60" value="19.333604850814744" />
+      <entry key="M2" value="21.058455838070813" />
+      <entry key="M5" value="22.195429326327506" />
+      <entry key="M10" value="22.59288226495803" />
+      <entry key="M15" value="22.727501035549842" />
+      <entry key="M30" value="22.863203587134414" />
+      <entry key="H1" value="22.931464426964382" />
+      <entry key="H2" value="22.965697792243283" />
+      <entry key="H4" value="22.982840280841717" />
+      <entry key="D1" value="22.997138849393046" />
+      <entry key="W1" value="22.999591234863534" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3H24AXfLMR0CLMxP0X0YD0Ccqs6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.FitDeskApplicationTests.contextLoads.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.FitDeskApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/VAIBHAV/Documents/GYM Management/fitdesk",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.12062726"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.FitDeskApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.FitDeskApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/VAIBHAV/Documents/GYM Management/fitdesk&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.12062726&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.FitDeskApplication">
     <configuration name="FitDeskApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fitdesk" />

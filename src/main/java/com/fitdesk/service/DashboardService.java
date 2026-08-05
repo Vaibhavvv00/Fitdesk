@@ -6,12 +6,13 @@ import com.fitdesk.repository.PaymentRepository;
 import com.fitdesk.repository.AttendanceRepository;
 import com.fitdesk.repository.PlanRepository;
 import com.fitdesk.entity.Member;
-import com.fitdesk.entity.Plan;
 import org.springframework.stereotype.Service;
 import lombok.RequiredArgsConstructor;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -35,7 +36,9 @@ public class DashboardService {
         if (monthlyRevenue == null) monthlyRevenue = BigDecimal.ZERO;
         stats.put("monthlyRevenue", monthlyRevenue);
         
-        stats.put("todayAttendance", attendanceRepository.countTodayAttendance());
+        LocalDateTime startOfDay = LocalDate.now().atStartOfDay();
+        LocalDateTime endOfDay = LocalDate.now().atTime(LocalTime.MAX);
+        stats.put("todayAttendance", attendanceRepository.countAttendanceBetween(startOfDay, endOfDay));
 
         LocalDate inSevenDays = LocalDate.now().plusDays(7);
         stats.put("expiringSoon", memberRepository.countExpiringSoon(inSevenDays));
