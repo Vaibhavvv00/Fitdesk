@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25d0d396-ad08-4ac9-a0f2-8883d07efcc8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fitdesk/repository/AttendanceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fitdesk/repository/AttendanceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fitdesk/service/AttendanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fitdesk/service/AttendanceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fitdesk/service/DashboardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fitdesk/service/DashboardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fitdesk-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/fitdesk-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fitdesk-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/fitdesk-1.0.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.fitdesk.FitDeskApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.fitdesk.FitDeskApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.fitdesk.FitDeskApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.fitdesk.FitDeskApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,61 +17,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000511745146" />
-      <entry key="MS500" value="1.0393624724244441" />
-      <entry key="S2" value="2.311318395957413" />
-      <entry key="S5" value="5.6055614084380405" />
-      <entry key="S10" value="9.619049637607624" />
-      <entry key="S30" value="16.015694371744367" />
-      <entry key="S60" value="18.663138736218063" />
-      <entry key="M2" value="20.233239280688643" />
-      <entry key="M5" value="21.267925588892627" />
-      <entry key="M10" value="21.629576808415408" />
-      <entry key="M15" value="21.752064485915117" />
-      <entry key="M30" value="21.875535831507865" />
-      <entry key="H1" value="21.937643237153925" />
-      <entry key="H2" value="21.968790376646307" />
-      <entry key="H4" value="21.984387368785736" />
-      <entry key="D1" value="21.997396807981314" />
-      <entry key="W1" value="21.999628088799962" />
+      <entry key="MS100" value="1.5133799546375402" />
+      <entry key="MS500" value="3.2812487435304307" />
+      <entry key="S2" value="5.413485839679306" />
+      <entry key="S5" value="7.209912164493774" />
+      <entry key="S10" value="10.591867329417685" />
+      <entry key="S30" value="20.68874018443418" />
+      <entry key="S60" value="30.787103518569943" />
+      <entry key="M2" value="45.19241020538658" />
+      <entry key="M5" value="64.07862761651023" />
+      <entry key="M10" value="73.7658308473273" />
+      <entry key="M15" value="77.52801552679797" />
+      <entry key="M30" value="81.59692210843697" />
+      <entry key="H1" value="83.75487798094122" />
+      <entry key="H2" value="84.86630793963788" />
+      <entry key="H4" value="85.43034122660309" />
+      <entry key="D1" value="85.90466364071048" />
+      <entry key="W1" value="85.98637085625278" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.55214965479339E-46" />
-      <entry key="MS500" value="8.130144245305684E-10" />
-      <entry key="S2" value="0.005339794734147694" />
-      <entry key="S5" value="0.12331327302141744" />
-      <entry key="S10" value="0.3511598966587975" />
-      <entry key="S30" value="0.7055075041749431" />
-      <entry key="S60" value="0.8399449411568255" />
-      <entry key="M2" value="0.9164851014374568" />
-      <entry key="M5" value="0.9657176385772196" />
-      <entry key="M10" value="0.9827093357535687" />
-      <entry key="M15" value="0.9884394140581992" />
-      <entry key="M30" value="0.994202903867314" />
-      <entry key="H1" value="0.9970972389227211" />
-      <entry key="H2" value="0.9985475646771774" />
-      <entry key="H4" value="0.999273518450868" />
-      <entry key="D1" value="0.999878883074459" />
-      <entry key="W1" value="0.9999826966838774" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.809297877305829E-147" />
+      <entry key="S2" value="2.062421932251661E-37" />
+      <entry key="S5" value="2.117146970286514E-15" />
+      <entry key="S10" value="4.6012465379356816E-8" />
+      <entry key="S30" value="0.0035833714943284186" />
+      <entry key="S60" value="0.05986126873303319" />
+      <entry key="M2" value="0.24466562638227954" />
+      <entry key="M5" value="0.5694153670509295" />
+      <entry key="M10" value="0.7545961615665231" />
+      <entry key="M15" value="0.8288508639324821" />
+      <entry key="M30" value="0.9104124691218174" />
+      <entry key="H1" value="0.954155369487494" />
+      <entry key="H2" value="0.9768087681258275" />
+      <entry key="H4" value="0.9883363638588963" />
+      <entry key="D1" value="0.9980465454933394" />
+      <entry key="W1" value="0.9997207011558522" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.5796892130310136E-5" />
-      <entry key="MS500" value="0.11761494310448599" />
-      <entry key="S2" value="1.579047280342102" />
-      <entry key="S5" value="5.072380345579841" />
-      <entry key="S10" value="9.42322322713321" />
-      <entry key="S30" value="16.426937948825344" />
-      <entry key="S60" value="19.333604850814744" />
-      <entry key="M2" value="21.058455838070813" />
-      <entry key="M5" value="22.195429326327506" />
-      <entry key="M10" value="22.59288226495803" />
-      <entry key="M15" value="22.727501035549842" />
-      <entry key="M30" value="22.863203587134414" />
-      <entry key="H1" value="22.931464426964382" />
-      <entry key="H2" value="22.965697792243283" />
-      <entry key="H4" value="22.982840280841717" />
-      <entry key="D1" value="22.997138849393046" />
-      <entry key="W1" value="22.999591234863534" />
+      <entry key="MS100" value="1.4370512960172444" />
+      <entry key="MS500" value="3.1947271584863777" />
+      <entry key="S2" value="5.374993422795396" />
+      <entry key="S5" value="7.191025135955794" />
+      <entry key="S10" value="10.579532538170033" />
+      <entry key="S30" value="20.683222900746564" />
+      <entry key="S60" value="30.828777773628506" />
+      <entry key="M2" value="45.40776275902143" />
+      <entry key="M5" value="64.62250055092966" />
+      <entry key="M10" value="74.50375605001774" />
+      <entry key="M15" value="78.34471318537061" />
+      <entry key="M30" value="82.500688100752" />
+      <entry key="H1" value="84.70555746511076" />
+      <entry key="H2" value="85.84133926067238" />
+      <entry key="H4" value="86.41777881837491" />
+      <entry key="D1" value="86.90255898037118" />
+      <entry key="W1" value="86.98606992183772" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -120,6 +106,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.12062726&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\VAIBHAV\Documents\GYM Management\fitdesk\src" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.FitDeskApplication">
     <configuration name="FitDeskApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fitdesk" />

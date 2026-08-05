@@ -39,6 +39,7 @@ Thumbs.db
 .env
 application-local.properties
 application-secrets.properties
+application.properties
 
 ### Compiled class files ###
 *.class
